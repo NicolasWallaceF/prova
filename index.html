@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PokédexWorld</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+    <header>
+
+        <nav>
+            <img src="" alt="">
+            <h1>PokédexWorld</h1>
+
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#pokedex">Pokédex</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <!-- INÍCIO -->
+    <main>
+
+        <section id="inicio">
+
+            <h2>Bem-vindo ao mundo Pokémon!</h2>
+
+            <p>
+                Descubra diferentes Pokémon, conheça seus tipos
+                e encontre seus favoritos.
+            </p>
+
+            <a href="#pokedex">Explorar Pokédex</a>
+
+            <img
+                src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
+                alt="Pikachu"
+            >
+
+        </section>
+
+
+        <!-- POKEDEX -->
+        <section id="pokedex">
+
+            <h2>Pokédex</h2>
+
+            <p>Encontre seu Pokémon favorito!</p>
+
+            <!-- PESQUISA -->
+            <input
+                type="text"
+                id="pesquisa"
+                placeholder="Pesquisar Pokémon..."
+            >
+
+            <button id="btn-pesquisar">
+                Pesquisar
+            </button>
+
+
+            <!-- LISTA DE POKÉMON -->
+            <div id="lista-pokemon">
+
+                <div class="pokemon-card">
+
+                    <img
+                        src="imagens copy/Bulbassauro.png"
+                        alt="Bulbasaur"
+                    >
+
+                    <h3>Bulbasaur</h3>
+
+                    <p>Tipo: Planta</p>
+
+                </div>
+
+
+                <div class="pokemon-card">
+
+                    <img
+                        src="imagens copy/charmander.png"
+                        alt="Charmander"
+                    >
+
+                    <h3>Charmander</h3>
+
+                    <p>Tipo: Fogo</p>
+
+                </div>
+
+
+                <div class="pokemon-card">
+
+                    <img
+                        src="imagens copy/squirtle.png"
+                        alt="Squirtle"
+                    >
+
+                    <h3>Squirtle</h3>
+
+                    <p>Tipo: Água</p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- RODAPÉ -->
+    <footer>
+
+        <p>PokédexWolrd - Projeto Nicolas-2026</p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
